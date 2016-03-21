@@ -9,7 +9,7 @@ html, body{
     padding: 0;
     overflow: hidden;
     font-size: 30px;
-    font-family: Avenir;
+    font-family: Avenir sans-serif;
 }
 
 .container-fluid{
@@ -51,25 +51,30 @@ html, body{
     font-weight: bold;
 }
 
-#apple{background-image: url("../images/appel.jpg"); background-position: center; background-size: contain}
-#dough{background-image: url("../images/Dough-Ball.jpg"); background-position: center; background-size: contain}
-#applePie{background-image: url("../images/appeltaart.gif"); background-position: center; background-size: contain}
-
-/* MOBILE STYLES */
-/*@media (max-width: 700px) {*/
-    /*#menuBar{*/
-        /*height: 50px !important;*/
-        /*width: 100%;*/
-        /*padding: 25px;*/
-        /*background-color: #f5f5f5;*/
-        /*position: absolute;*/
-        /*display: block;*/
-        /*bottom: 0;*/
-        /*border-top: 1px solid #e1e1e1;*/
-        /*border-right: 0;*/
-        /*z-index: 1000;*/
-    /*}*/
-/*}*/
+#apple{
+    background-image: url("../images/blocks/appel.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#paperClip{
+    background-image: url("../images/blocks/paperclip.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#hoefijzer{
+    background-image: url("../images/blocks/hoefijzer.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#koffiedik{
+    background-image: url("../images/blocks/koffiedik.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 
 .score-item{
     line-height: 50px;
