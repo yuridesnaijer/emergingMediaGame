@@ -1,21 +1,20 @@
+@font-face {
+    font-family: "Avenir";
+    src: url("../AvenirLTStd-Medium.otf");
+}
+
 html, body{
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
+    overflow: hidden;
+    font-size: 30px;
+    font-family: Avenir;
 }
 
 .container-fluid{
     padding: 0;
     background-color: #ffffff;
-}
-
-#menuBar{
-    height: 100%;
-    padding: 0 25px;
-    display: block;
-    background-color: #f5f5f5;
-    border-right: 1px solid #e1e1e1;
 }
 
 #dragContainer{
@@ -57,17 +56,48 @@ html, body{
 #applePie{background-image: url("../images/appeltaart.gif"); background-position: center; background-size: contain}
 
 /* MOBILE STYLES */
-@media (max-width: 700px) {
-    #menuBar{
-        height: 50px !important;
-        width: 100%;
-        padding: 25px;
-        background-color: #f5f5f5;
-        position: absolute;
-        display: block;
-        bottom: 0;
-        border-top: 1px solid #e1e1e1;
-        border-right: 0;
-        z-index: 1000;
-    }
+/*@media (max-width: 700px) {*/
+    /*#menuBar{*/
+        /*height: 50px !important;*/
+        /*width: 100%;*/
+        /*padding: 25px;*/
+        /*background-color: #f5f5f5;*/
+        /*position: absolute;*/
+        /*display: block;*/
+        /*bottom: 0;*/
+        /*border-top: 1px solid #e1e1e1;*/
+        /*border-right: 0;*/
+        /*z-index: 1000;*/
+    /*}*/
+/*}*/
+
+.score-item{
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.score-number{
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.score-image > img{
+    height: 50px;
+}
+
+.profile-image{
+    margin: 10%;
+    width: 80%;
+}
+
+.navbar-nav{
+    float: left;
+}
+
+.navbar-right{
+    float: right;
+}
+
+.blocks-menu li{
+    float: left;
 }
